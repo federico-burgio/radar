@@ -16,7 +16,7 @@ namespace radar
         {
             BuildWebHost(args).Run();
         }
-public static IWebHost BuildWebHost(string[] args) 
+        public static IWebHost BuildWebHost(string[] args) 
         {
             IWebHost host = null;
             try
